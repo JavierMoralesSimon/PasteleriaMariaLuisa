@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Chelsea+Market&family=Darumadrop+One&family=DynaPuff:wght@400..700&family=Leckerli+One&family=Lexend:wght@100..900&display=swap');
+
+a:link{
+    text-decoration: none;
+    text-align: center;
+    color: rgba(239, 236, 143, 0.933);
+    font-size: 50px;
+}
+
+a:visited{
+    color: rgba(239, 236, 143, 0.933);
+}
+
+a:hover{
+    font-weight:600;
+    font-size: 55px;
+    color: red;
+}
+
+a:active{
+    color: rgb(124, 164, 124);
+}
+
+
+
+
+
+
+
+p, li{
+    font-family: "Lexend", sans-serif;
+    font-weight: 300;
+}
+
+#pedido, #pasteleriavolver, #volver{
+    text-align: center;
+    /*
+    border: 3px solid gold;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgb(200, 118, 59);
+    */
+    width: 750px;
+    margin:auto;
+    font-family: "Leckerli One", cursive;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px black;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+
+    <link rel="icon" href="Imágenes/Favicon ML.png" type="image/png">
+    <link rel="stylesheet" href="css/estilospedido.css">
+    <link rel="stylesheet" href="css/estiloscomunes.css">
+</head>
+<body>
+    <form action="pedido.php" method="post">
+        <fieldset>
+            <legend>
+                <div>Pedido</div>
+            </legend>
+
+            <p class="etiquetas">Datos Personales</p>
+            <p>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" minlength="1" maxlength="20" autofocus required>
+
+                <label for="apellidos" class="campos">Apellidos:</label>
+                <input type="text" id="apellidos" minlength="1" maxlength="50" required>
+            </p>
+            <p>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" minlength="11" maxlength="11" placeholder="XXX XX XX XX">
+
+                <label for="email" class="campos">Email:</label>
+                <input type="email" id="email" minlength="11">
+            </p>
+
+            <hr>
+
+            <p class="etiquetas">Entrega</p>
+            <p>
+                <label for="calle">Calle:</label>
+                <input type="text" id="calle" minlength="1" maxlength="30" required>
+                <label for="numero" class="campos">Nº:</label>
+                <input type="number" id="numero" min="1" max="1000" required>
+            </p>
+            <p>
+                <label for="recogida">Fecha de entrega deseada:</label>
+                <input type="date" id="recogida" name="recogida">
+            </p>
+
+            <hr>
+
+            <p class="etiquetas">Productos</p>
+            <p>
+                <label for="ofertas">Ofertas:</label>
+                    <select name="ofertas" id="ofertas">
+                        <option value="vacio" selected>-Vacío-</option>
+                        <option value="tarta">Tarta de cumpleaños personalizable</option>
+                        <option value="roscon">Roscón de reyes</option>
+                        <option value="chuches">Mix de chucherías</option>
+                    </select>
+                    <input type="number" min="0" max="3" id="ofertas" name="ofertas" required>
+
+                    <select name="ofertas" id="ofertas">
+                        <option value="vacio" selected>-Vacío-</option>
+                        <option value="tarta">Tarta de cumpleaños personalizable</option>
+                        <option value="roscon">Roscón de reyes</option>
+                        <option value="chuches">Mix de chucherías</option>
+                    </select>
+                    <input type="number" min="0" max="3" id="ofertas" name="ofertas" required>
+
+                    <select name="ofertas" id="ofertas">
+                        <option value="vacio" selected>-Vacío-</option>
+                        <option value="tarta">Tarta de cumpleaños personalizable</option>
+                        <option value="roscon">Roscón de reyes</option>
+                        <option value="chuches">Mix de chucherías</option>
+                    </select>
+                    <input type="number" min="0" max="3" id="ofertas" name="ofertas" required>
+            </p>
+            <p>
+                <label for="otros">Otros:</label>
+                <input type="text" id="otros" name="otros">
+            </p>
+
+            <hr>
+
+            <p class="etiquetas">Extra</p>
+            <p>
+                <textarea name="observaciones" id="observaciones" placeholder="Introduzca aquí sus observaciones" cols="40" rows="5"></textarea>
+            </p>
+            <p>
+                Adjuntar archivo de necesitarse:
+                <input type="file" name="archivo" id="archivo" value="Seleccionar archivo">
+            </p>
+
+            <hr>
+
+            <p class="etiquetas">Formalizar</p>
+            <p>
+                <label for="pago">Pago:</label>
+
+                <label for="tarjeta" class="campos">Tarjeta de crédito</label>
+                <input type="radio" id="tarjeta" name="pago" checked>
+
+                <label for="bizum" class="campos">Bizum</label>
+                <input type="radio" id="bizum" name="pago">          
+
+                <label for="transferencia" class="campos">Transferencia bancaria</label>
+                <input type="radio" id="transferencia" name="pago">
+            </p>
+
+            <p>
+                <label for="info">Deseo recibir información sobre novedades y ofertas</label>
+                <input type="checkbox" id="info" name="info" checked>
+            </p>
+
+            <p>
+                <label for="datos">Declaro haber leído y aceptar las condiciones generales del programa y normativa sobre protección de datos</label>
+                <input type="checkbox" id="datos" name="datos" required>
+            </p>
+
+            <p>
+                <input type="submit" name="enviar" id="enviar" value="Enviar">
+                <input type="reset" name="reiniciar" id="reiniciar" value="Reiniciar">
+            </p>
+        </fieldset>
+    </form>
+
+    <div id="pasteleriavolver">
+        <p id="pasteleria">
+            <a href="index.html"><img src="https://lh5.googleusercontent.com/p/AF1QipMz35L9bKrqkzrCs0vpo9WGkNpy5ssK3tuuOhXW" alt="Pastelería Maria Luisa"></a>
+        </p>
+        <p id="volver">
+            <a href="index.html">Volver a la página principal</a>
+        </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Chelsea+Market&family=Darumadrop+One&family=DynaPuff:wght@400..700&family=Leckerli+One&family=Lexend:wght@100..900&display=swap');
+
+body{
+    background-image: url(/Imágenes/Tienda.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#caja1{
+    /* 
+    border: 3px solid gold;
+    border-style: dashed dashed none dashed;
+    border-width: 8px;
+    border-color: bisque;
+        */
+    padding-top: 80px;
+    width: 50%;
+    margin: auto;
+}
+
+#caja2{
+    /* 
+    border: 3px solid gold;
+    border-style: dashed dashed none dashed;
+    border-width: 8px;
+    border-color: bisque;
+        */
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+.caja3{
+    border: 3px solid gold;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    width: 605px;
+    margin-left: 400px;
+    background-color: rgb(200, 118, 59);
+    margin-top: 125px;
+}
+
+#caja4{
+    border: 3px solid gold;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    width: 605px;
+    margin: auto;
+    background-color: rgb(200, 118, 59);
+}
+
+section{
+    float: left;
+    padding: 60px;
+}
+
+
+
+
+
+
+
+h1{
+    font-family: "DynaPuff", system-ui;
+    font-size: 90px;
+    color: rgb(233, 159, 61);
+    text-align: center;
+    text-shadow: 5px 3px 8px black;
+}
+
+#facebook{
+    color: blue;
+    font-size: 45px;
+    padding-right: 5px;
+}
+
+#instagram{
+    color: red;
+    padding-left: 5px;
+    font-size: 49px;
+}
+
+h2{
+    font-family: "Birthstone", cursive;
+    font-size: 60px;
+    color: burlywood;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+
+
+
+
+
+
+
+.titulos{
+    font-family: "Darumadrop One", sans-serif;
+    font-size: 54px;
+    color: rgba(239, 236, 143, 0.933);
+    text-align: center;
+    padding-top: 18px;
+}
+
+p iframe{
+    margin: auto;
+}
+
+#lista{
+    margin: auto;
+    width: fit-content;
+    padding-bottom: 2px;
+}
+
+li{
+    list-style-type: circle;
+}
+
+p{
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+p, li, table, tr, td, caption{
+    font-size: 24px;
+}
+
+table, td, th, tr{
+    width: 83%;
+    margin: auto;
+    border: 2px solid brown;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 16px;
+    font-family: "Lexend", sans-serif;
+}
+
+table{
+    margin-bottom: 26px;
+}
+
+caption{
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+td, caption{
+    font-weight: 300;
+}
+
+th{
+    font-size: 30px;
+    font-weight: 600;
+    background-color: rgb(133, 81, 237);
+}
+
+.ofertas{
+    padding-top: 28px;
+    padding-bottom: 16px;
+}
+
+
+
+
+
+
+
+#pedido{
+    padding-bottom: 56px;
+}
